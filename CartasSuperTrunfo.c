@@ -28,7 +28,7 @@ int main() {
     scanf(" %[^\n]", nomeCidade1);
 
     printf("Digite a população:\n");
-    scanf("%d", &populacao1);
+    scanf("%lu", &populacao1);
 
     printf("Digite a área em Km²:\n");
     scanf("%f", &areakm1);
@@ -53,7 +53,7 @@ int main() {
     scanf(" %[^\n]", nomeCidade2);
 
     printf("Digite a população:\n");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2);
 
     printf("Digite a área em Km²:\n");
     scanf("%f", &areakm2);
